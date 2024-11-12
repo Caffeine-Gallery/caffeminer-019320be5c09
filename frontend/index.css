@@ -10,16 +10,23 @@ body {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
-.btn-primary {
-    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+.btn {
     border: none;
     padding: 10px 20px;
     transition: all 0.3s ease;
 }
 
-.btn-primary:hover {
+.btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #00b894 0%, #00897b 100%);
 }
 
 .loading-overlay {
@@ -65,4 +72,14 @@ input.form-control:focus {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.btn-outline-danger {
+    border: 1px solid #dc3545;
+    color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    background: #dc3545;
+    color: white;
 }
