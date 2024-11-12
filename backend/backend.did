@@ -1,0 +1,5 @@
+service : {
+  calculateRewards: () -> (float64) query;
+  deposit: (nat) -> (bool);
+  getDeposit: () -> (nat) query;
+}
